@@ -6,7 +6,7 @@
 /*   By: kaafkhar <kaafkhar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/31 12:59:17 by kaafkhar          #+#    #+#             */
-/*   Updated: 2024/05/31 17:59:32 by kaafkhar         ###   ########.fr       */
+/*   Updated: 2024/06/02 21:57:16 by kaafkhar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void	ft_putnbr(int nb)
 	}
 }
 
-void ft_putchar (char c)
+void	ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }
